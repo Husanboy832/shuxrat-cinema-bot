@@ -9,7 +9,7 @@ import os
 # --- SOZLAMALAR ---
 TOKEN = "7532712344:AAEn-sttm7oaKtqLypaSb7ZINPvPyi5H2P8" # @BotFather dan olgan kod
 ADMINS = [8019349816] # O'zingizning ID raqamingizni yozing
-MINI_APP_URL = "https://google.com" # Hozircha Google, keyin GitHub linkini qo'yamiz
+MINI_APP_URL = "https://husanboy832.github.io/shuxrat-cinema-app/" # Hozircha Google, keyin GitHub linkini qo'yamiz
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -69,4 +69,5 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except (KeyboardInterrupt, SystemExit):
+
         logging.error("Bot to'xtatildi!")
