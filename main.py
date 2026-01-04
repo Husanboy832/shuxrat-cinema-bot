@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types.web_app_info import WebAppInfo
 
 # Bot tokeningizni bitta joyga yozib qo'yamiz
-API_TOKEN = 'BU_YERGA_TOKENINGIZNI_YOZING'
+API_TOKEN = '7532712344:AAEn-sttm7oaKtqLypaSb7ZINPvPyi5H2P8'
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
@@ -32,3 +32,4 @@ async def web_app_data_handler(message: types.Message):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+
